@@ -5,7 +5,7 @@
 ### Owner
 
 - [x] criar owner
-- [ ] buscar catalogo pelo owner id
+- [x] buscar catalogo pelo owner id
 
 ### Product
 
@@ -61,4 +61,4 @@
 
 - [ ] Criar testes unitários
 - [ ] Criar documentação com Swagger
-- [ ] Tratamento de erros
+- [x] Tratamento de erros
