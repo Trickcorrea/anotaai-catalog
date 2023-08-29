@@ -22,6 +22,13 @@
 - yarn test
 ```
 
+### Optional
+
+```
+# Up Mongodb and Mongo-Express UI with docker-compose
+- docker compose up -d
+```
+
 ## ENDPOINTS
 
 ### Owner
