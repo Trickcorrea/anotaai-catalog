@@ -1,0 +1,51 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": 2,
+    "semi": [2, "always"],
+    "comma-dangle": [2, "always-multiline"],
+    "no-trailing-spaces": 2,
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-shadow": ["error"],
+    "arrow-parens": "off",
+    "eqeqeq": "error",
+    "function-paren-newline": "off",
+    "indent": 0,
+    "linebreak-style": [2, "unix"],
+    "no-console": [
+      "error",
+      {
+        "allow": ["info", "warn", "error", "time", "timeEnd"]
+      }
+    ],
+    "no-duplicate-imports": "error",
+    "no-extra-parens": "off",
+    "no-return-await": "error",
+    "no-shadow": "off",
+    "operator-linebreak": [
+      2,
+      "before",
+      {
+        "overrides": {
+          "=": "after",
+          "||": "after",
+          "&&": "after",
+          "+=": "after",
+          "+": "after"
+        }
+      }
+    ],
+    "import/prefer-default-export": "off"
+  }
+}
